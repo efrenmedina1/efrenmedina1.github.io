@@ -1,0 +1,10 @@
+:root {
+    --cyan: rgb(81, 231, 211);
+    --red: rgb(233, 35, 35);
+    --green: rgb(84, 255, 61);
+    --black: rgb(0, 0, 0);
+    --purple: rgb(126, 18, 117);
+
+    --fancyfont: 'Molle', cursive;
+}
+

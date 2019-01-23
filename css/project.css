@@ -1,0 +1,18 @@
+.col-sm {
+    text-align: center
+}
+
+#jumbotronPRO{
+    background-color: rgb(49, 48, 48);
+    background-size: cover;
+    color:white;
+    margin: 0%;
+    height: 40vw;
+    
+}
+
+#imgbuttons{
+    margin: 50px;
+    border-radius: 50px;
+    width:20vw;height:15vw;
+}
