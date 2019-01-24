@@ -1,18 +1,27 @@
 .col-sm {
-    text-align: center
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5rem;
 }
 
 #jumbotronPRO{
     background-color: rgb(49, 48, 48);
+    /* background-color: rgb(255, 255, 255); */
     background-size: cover;
     color:white;
     margin: 0%;
-    height: 40vw;
+    height: 45vw;
     
 }
 
 #imgbuttons{
-    margin: 50px;
+    margin: 50px;       
     border-radius: 50px;
     width:20vw;height:15vw;
+    box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.497), 0 2vw 4vw 0 rgba(0, 0, 0, 0.585);
+    transition: transform .2s;
 }
+
+#imgbuttons:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }

@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Efren Medina</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Condiment|Molle:400i|Patrick+Hand+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css"></Link>
 
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid" id=navi>
         <a class="navbar-brand" href="#">Efren Medina</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -20,52 +21,55 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#contact">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
               <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" target="_blank" href="assets/img/Resume.pdf">Resume</a>
             </li>
             <!-- <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
-            </li>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
           </ul>
+        </div>
         </div>
       </nav>
      
       <div class="jumbotron jumbotron-fluid" id="jumbotronBG">
           <div class="container">
             <h1 class="display-4" id="headername">Efren Medina </h1>
-            <h1 class="display-4" id="headertext">Efren Medina </h1>
+            <h1 class="display-4" id="headertext">JavaScript Web Developer  </h1>
               
             </p>
           </div>
         </div>
       
+
+   <section id="projects">
         <div class="jumbotron jumbotron-fluid" id="jumbotronPRO">
             <div class="container-fluid">
-                <h1><center>Projects<br><br> </center></h1>
+                <h1><center>Projects<br> </center></h1>
                 <div class="row">
                     <div class="col-sm">
-                       Creature<br>
+                       Html Creature<br>
                       <a href="https://codepen.io/efrenmedina/pen/XoYjWJ" target="_blank"><img src="assets\img\creature.jpg" id="imgbuttons" ></a>
                     </div>
                     <div class="col-sm">
-                     Website goes here<br>
+                    <br><br> Tutorial Website<br>
                      <a href="https://efrenmedina1.github.io/Tutorial-Webpage/" target="_blank"><img src="assets\img\tutorial.jpg" id="imgbuttons"></a>
                      
                     </div>
                     <div class="col-sm">
-                      API goes here <br>
-                      <a href="https://efrenmedina1.github.io/API/" target="_blank"><img src="assets/img/API.jpg" id="imgbuttons"></a>
+                      API Project <br>
+                      <a href="https://efren-studio-ghibli-api.firebaseapp.com/" target="_blank"><img src="assets/img/API.jpg" id="imgbuttons"></a>
     
                     </div>
                   </div>
             </div>
           </div>   
-
+</section>
   
 
  
@@ -77,22 +81,24 @@
           
           <div class="row">              
             
-            <div class="col-sm"><img src="assets\img\profile.jpg" style="width:75%;height:75%"></div>
+            <div class="col-sm"><img src="assets\img\profile.jpg" style="width:80%;height:80%; border-radius: 1vw;""></div>
             
             <div class="col-sm">
-                <h2 class="text-center text-uppercase">About Me</h2> 
-              <p>Hello there is muffins.Hello there is muffins.Hello there is muffins.Hello there is muffins.Hello there is muffins.Hello there is muffins.Hello there is muffins.Hello there is muffins.Hello there is muffins.lo there is muffins.Hello there is muffins.Hello there is muffins.Hello there is muffins.Hello there is muffins.Hello there is muffins.Hello there is muffins.Hello there is muffi</p>
+                <h2 class="text-center text-uppercase" id="aboutText"><b>About Me</b></h2> 
+                <br>
+              <p id="aboutText">I am a coding student at Eleven Fifty Academy. I am transitioning from a background in five year of Human Resources to Coding and Web Developement. I am focusing on Javascipt based development.  </p>
 
             </div>
             
             
             <div class="col-sm">
-                <h3 class="text-center ">Contact Me</h3>
+                <h3 class="text-center" id="aboutText">Contact Me</h3>
 
-               <form action="https://formspree.io/mahawley24@gmail.com" method="POST">
+               <form action="https://formspree.io/efrenmedina@live.com" method="POST">
                <div class="control-group">
+                 <br>
                    <div class="form-group">
-                       <label>Name</label>
+                       <label id="aboutText">&nbsp Name &nbsp</label>
                        <input
                        type="text"
                        class="form-control"
@@ -107,7 +113,7 @@
                </div>
                <div class="control-group">
                    <div class="form-group">
-                   <label>Email Address</label>
+                   <label id="aboutText">&nbsp Email Address &nbsp</label>
                    <input
                        type="email"
                        class="form-control"

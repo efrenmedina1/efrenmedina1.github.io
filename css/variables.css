@@ -5,6 +5,23 @@
     --black: rgb(0, 0, 0);
     --purple: rgb(126, 18, 117);
 
-    --fancyfont: 'Molle', cursive;
+    --font1: 'Titillium Web', sans-serif;
 }
 
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+}
+/* font-family: 'Titillium Web', sans-serif;
+font-family: 'Roboto', sans-serif; */
