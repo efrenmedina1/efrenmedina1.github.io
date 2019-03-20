@@ -37,7 +37,7 @@
     display: table-cell;
     border-radius: 2vw;
     border: solid 5px black;
-    height: 9rem;
+    height: 12rem;
     padding: 1rem;
 
 }
@@ -66,6 +66,78 @@
 }
 
 a { color: inherit; } 
+@media only screen and (max-width: 1000px) {
+
+    #title{
+        border-bottom: solid rgba(0, 0, 0, 0.85) .2rem;
+        text-align: center;
+        font-size: 6vh;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    
+    }
+    
+    
+    
+    .projectSection{
+        margin-left: 3vw;
+    }
+    
+    
+    
+    .projects{
+        width: 50%;
+        float: left;
+        display: table-cell;
+        margin-top: 1vh;
+    }
+    
+    .twentyfive{
+        width: 80%;
+        float: left;
+        display: table-cell;
+        text-align: center;
+        margin: 3vh;
+    }   
+    
+    .seventyfive{
+        width: 80%;
+        float: left;
+        display: table-cell;
+        border-radius: 2vw;
+        border: solid 5px black;
+        height: 12rem;
+        padding: 1rem;
+    
+    }
+    
+    .img{
+        height: 12vw;
+        width: 12vw;
+        box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.497), 0 2vw 4vw 0 rgba(0, 0, 0, 0.585);
+        border-radius: 2vw;
+        border: solid 5px black
+    }
+    
+    
+    .img:hover{
+        height: 12vw;
+        width: 12vw;
+        box-shadow: 0 3vw 6vw 0 rgba(0, 0, 0, 0.497), 0 3vw 6vw 0 rgba(0, 0, 0, 0.585);
+    }
+    
+    #poke{
+        background-color: red;
+    }
+    
+    #dog{
+        background-color: black;
+    }
+    
+    a { color: inherit; } 
+    
+
+  }
 
 @media only screen and (max-width: 600px) {
     
@@ -97,7 +169,7 @@ a { color: inherit; }
 }
 
 .twentyfive{
-    width: 100%;
+    width: 80%;
     float: left;
     display: table-cell;
     text-align: center
@@ -117,8 +189,8 @@ a { color: inherit; }
 }
 
 .img{
-    height: 24vw;
-    width: 24vw;
+    height: 30vw;
+    width: 30vw;
     box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.497), 0 2vw 4vw 0 rgba(0, 0, 0, 0.585);
     border-radius: 2vw;
     border: solid 5px black
@@ -142,3 +214,6 @@ a { color: inherit; }
 a { color: inherit; } 
 
   }
+
+
+ 
