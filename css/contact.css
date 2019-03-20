@@ -1,8 +1,6 @@
-#contact{
-    margin-top: 5vh;
-    }
+
     
-    .aboutDiv{
+.aboutDiv{
         width: 27%;
         float: left;
         display: table-cell;
@@ -10,14 +8,23 @@
         margin-right: 3vw;
     }
 
-    .input{
+.input{
         width: 100%;
     }
 
+#contactBG{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding-top: 5vh;
+
+}
+
     @media only screen and (max-width: 600px) {
-        #contact{
-            margin-top: 5vh;
-            }
+        #contactBG{
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding-top: 5vh;
+        }        
             
             .aboutDiv{
                 width: 80%;
