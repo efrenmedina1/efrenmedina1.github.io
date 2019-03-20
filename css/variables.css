@@ -1,27 +1,57 @@
-:root {
-    --cyan: rgb(81, 231, 211);
-    --red: rgb(233, 35, 35);
-    --green: rgb(84, 255, 61);
-    --black: rgb(0, 0, 0);
-    --purple: rgb(126, 18, 117);
-
-    --font1: 'Titillium Web', sans-serif;
+.body{
+    margin: 0px;
 }
 
-h1 {
-    font-family: 'Titillium Web', sans-serif;
+.container{
+    display: table;
+    width: 100%;
+    left: 0;
+    top: 0;
+    
 }
 
-h2 {
-    font-family: 'Titillium Web', sans-serif;
+.container-fluid{
+    display: table;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    
 }
 
-h3 {
-    font-family: 'Titillium Web', sans-serif;
+.two{
+    width: 50%;
+    float: left;
+    display: table-cell;
 }
 
-p {
-    font-family: 'Titillium Web', sans-serif;
+
+.three{
+    width: 33%;
+    float: left;
+    display: table-cell;
 }
-/* font-family: 'Titillium Web', sans-serif;
-font-family: 'Roboto', sans-serif; */
+
+.four{
+    width: 25%;
+    float: left;
+    display: table-cell;
+}
+
+.five{
+    width: 20%;
+    float: left;
+    display: table-cell;
+}
+
+.five{
+    width: 20%;
+    float: left;
+    display: table-cell;
+}
+
+.six{
+    width: 16%;
+    float: left;
+    display: table-cell;
+}

@@ -1,27 +1,144 @@
-.col-sm {
+
+
+
+#title{
+    border-bottom: solid rgba(0, 0, 0, 0.85) .2rem;
     text-align: center;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 1.5rem;
+    font-size: 6vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
 }
 
-#jumbotronPRO{
-    background-color: rgb(49, 48, 48);
-    /* background-color: rgb(255, 255, 255); */
-    background-size: cover;
-    color:white;
-    margin: 0%;
-    height: 45vw;
-    
+
+
+.projectSection{
+    margin-left: 3vw;
 }
 
-#imgbuttons{
-    margin: 50px;       
-    border-radius: 50px;
-    width:20vw;height:15vw;
+
+
+.projects{
+    width: 50%;
+    float: left;
+    display: table-cell;
+    margin-top: 7vh;
+}
+
+.twentyfive{
+    width: 30%;
+    float: left;
+    display: table-cell;
+}   
+
+.seventyfive{
+    width: 50%;
+    float: left;
+    display: table-cell;
+    border-radius: 2vw;
+    border: solid 5px black;
+    height: 9rem;
+    padding: 1rem;
+
+}
+
+.img{
+    height: 12vw;
+    width: 12vw;
     box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.497), 0 2vw 4vw 0 rgba(0, 0, 0, 0.585);
-    transition: transform .2s;
+    border-radius: 2vw;
+    border: solid 5px black
 }
 
-#imgbuttons:hover {
-    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+.img:hover{
+    height: 12vw;
+    width: 12vw;
+    box-shadow: 0 3vw 6vw 0 rgba(0, 0, 0, 0.497), 0 3vw 6vw 0 rgba(0, 0, 0, 0.585);
+}
+
+#poke{
+    background-color: red;
+}
+
+#dog{
+    background-color: black;
+}
+
+a { color: inherit; } 
+
+@media only screen and (max-width: 600px) {
+    
+    
+
+
+#title{
+    border-bottom: solid rgba(0, 0, 0, 0.85) .2rem;
+    text-align: center;
+    font-size: 4.5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+}
+
+
+
+.projectSection{
+    margin-left: 3vw;
+}
+
+
+
+.projects{
+    width: 100%;
+    float: left;
+    display: table-cell;
+    margin-top: 1vh;
+}
+
+.twentyfive{
+    width: 100%;
+    float: left;
+    display: table-cell;
+    text-align: center
+}   
+
+.seventyfive{
+    width: 80%;
+    float: left;
+    display: table-cell;
+    border-radius: 2vw;
+    border: solid 5px black;
+    height: 12rem;
+    padding: 1rem;
+    text-align: center;
+    margin-left: 2vw;
+
+}
+
+.img{
+    height: 24vw;
+    width: 24vw;
+    box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.497), 0 2vw 4vw 0 rgba(0, 0, 0, 0.585);
+    border-radius: 2vw;
+    border: solid 5px black
+}
+
+
+.img:hover{
+    height: 12vw;
+    width: 12vw;
+    box-shadow: 0 3vw 6vw 0 rgba(0, 0, 0, 0.497), 0 3vw 6vw 0 rgba(0, 0, 0, 0.585);
+}
+
+#poke{
+    background-color: red;
+}
+
+#dog{
+    background-color: black;
+}
+
+a { color: inherit; } 
+
   }

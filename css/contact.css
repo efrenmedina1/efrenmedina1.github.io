@@ -1,16 +1,33 @@
-#jumbotronCON{
-    background-image: url(../assets/img/contactBG.jpg);
-    background-size: cover;
-    color:white;
-    margin: 0%;
-    height: 45vw;
+#contact{
+    margin-top: 5vh;
+    }
     
-}
+    .aboutDiv{
+        width: 27%;
+        float: left;
+        display: table-cell;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
 
+    .input{
+        width: 100%;
+    }
 
-#aboutText {
-    margin: 0%;
-    text-align: center;
-    vertical-align: middle;
-    background-color: rgba(66, 64, 73, 0.871);
-}
+    @media only screen and (max-width: 600px) {
+        #contact{
+            margin-top: 5vh;
+            }
+            
+            .aboutDiv{
+                width: 80%;
+                float: left;
+                display: table-cell;
+                margin-left: 3vw;
+                margin-right: 3vw;
+            }
+        
+            .input{
+                width: 100%;
+            }
+      }
