@@ -19,6 +19,23 @@
 
 }
 
+.contactButton{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0px;
+    font-size: 1rem;
+    box-shadow: 0 1vw 2vw 0 rgba(0, 0, 0, 0.497);
+
+  }
+
+  .contactButton:hover{
+    background-color: rgb(254, 255, 255);
+    cursor: pointer;
+  }
+
     @media only screen and (max-width: 600px) {
         #contactBG{
             background-color: rgba(0, 0, 0, 0.9);
