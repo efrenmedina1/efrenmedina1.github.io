@@ -198,8 +198,8 @@ a { color: inherit; }
 
 
 .img:hover{
-    height: 12vw;
-    width: 12vw;
+    height: 30vw;
+    width: 30vw;
     box-shadow: 0 3vw 6vw 0 rgba(0, 0, 0, 0.497), 0 3vw 6vw 0 rgba(0, 0, 0, 0.585);
 }
 
