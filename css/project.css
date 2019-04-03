@@ -39,6 +39,8 @@
     border: solid 5px black;
     height: 12rem;
     padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.497), 0 2vw 4vw 0 rgba(0, 0, 0, 0.585);
 
 }
 
