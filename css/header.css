@@ -1,11 +1,18 @@
 
 
 #header{
-    
-    background-image: url(../assets/img/coffee.jpg);
-    background-size: 100%;
+        /* The image used */
+        background-image: url("../assets/img/coffee.jpg");
+  
+        /* Set a specific height */
+        height: 500px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     height: 55vh;
-    background-repeat: no-repeat;
     text-align: center;
     padding: 15vw 30vw 0vw 30vw;
     

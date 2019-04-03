@@ -10,7 +10,10 @@
 }
 
 #navbarContainer{
-    background-color: #228b22;
+    /* background-color: #014421; */
+    background-image: linear-gradient(-90deg,  #014421, #014421c9);
+    padding: 0rem;
+    position: fixed;
 }
 
 .nav{
@@ -30,10 +33,11 @@
     float: left;
     display: table-cell;
     text-align: center;
+    color: white;
 }
 
 .link:hover{
-    background-color: azure
+    background-color: #00783a;
 }
 
 @media only screen and (max-width: 800px) {
