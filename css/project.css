@@ -3,12 +3,14 @@
 
 #title{
     text-align: center;
-    font-size: 6vh;
+    font-size: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     /* background-color: #014421; */
     background-image: linear-gradient(-90deg,  #014421, #014421c9);
     color: white;
+    font-weight: bold;
+    
 
 }
 
