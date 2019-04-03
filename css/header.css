@@ -23,6 +23,7 @@
     color: white;
     font-size: 5vw;
     margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 .welcome2{
@@ -31,6 +32,7 @@
     font-size: 3.5vw;
     margin-top: 0;
     padding-top: 0;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 1000px) {
