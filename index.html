@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Efren</title>
     <link rel="stylesheet" href="css/main.css"></Link>
+    <! ----- Javascript Tags------->
+    <script src="js/main.js"></script>
 </head>
 <body class="body" id="parallax" >
     
@@ -72,7 +74,9 @@
 
                             <div class="projects"> 
                                 <div  class="twentyfive"> 
-                                    <a href="https://dogbreedproject.herokuapp.com/" target="_blank"> <img src="assets/img/dl.png" id="dog" class="img" /> </a>
+                                    <!-- <a href="https://dogbreedproject.herokuapp.com/" target="_blank">  -->
+                                        <img src="assets/img/dl.png" id="dog" class="img" onclick="go('https://dogbreedproject.herokuapp.com/')"  /> 
+                                    <!-- </a> -->
                                 </div>
                                 <div class="seventyfive">
                                   <b>Dog Selling/Breeding Full Stack Website</b>
@@ -81,7 +85,9 @@
                             </div>
                             <div class="projects"> 
                                 <div  class="twentyfive"> 
-                                    <a href="https://efrens-pokemon-client.herokuapp.com/" target="_blank"> <img src="assets/img/redteam.gif" id="poke" class="img" /> </a>
+                                    <!-- <a href="https://efrens-pokemon-client.herokuapp.com/" target="_blank"> -->
+                                         <img src="assets/img/redteam.gif" id="poke" class="img" onclick="go('https://efrens-pokemon-client.herokuapp.com/')"  /> 
+                                        <!-- </a> -->
                                 </div>
                                 <div class="seventyfive">
                                   <b>Pokemon Team Full Stack App</b>
@@ -90,7 +96,9 @@
                             </div>
                             <div class="projects"> 
                                 <div class="twentyfive"> 
-                                    <a href="https://efren-studio-ghibli-api.firebaseapp.com/" target="_blank"> <img src="assets/img/API.jpg" class="img" /> </a>
+                                    <!-- <a href="https://efren-studio-ghibli-api.firebaseapp.com/" target="_blank">  -->
+                                        <img src="assets/img/API.jpg" class="img" onclick="go('https://efren-studio-ghibli-api.firebaseapp.com/')"  /> 
+                                    <!-- </a> -->
                                 </div>
                                 <div class="seventyfive">
                                   <b>Studio Ghibli API Website </b>
@@ -99,7 +107,9 @@
                             </div>
                             <div class="projects"> 
                                 <div class="twentyfive"> 
-                                    <a href="https://efrenmedina1.github.io/Tutorial-Webpage/" target="_blank"><img src="assets\img\tutorial.jpg" class="img" /> </a>
+                                    <!-- <a href="https://efrenmedina1.github.io/Tutorial-Webpage/" target="_blank"> -->
+                                        <img src="assets\img\tutorial.jpg" class="img" onclick="go('https://efrenmedina1.github.io/Tutorial-Webpage/')"  /> 
+                                    <!-- </a> -->
                                 </div>
                                 <div class="seventyfive">
                                   <b>Tutorial Website</b>
@@ -108,8 +118,10 @@
                             </div>
 
                             <div class="projects"> 
-                                <div class="twentyfive"> 
-                                    <a href="https://codepen.io/efrenmedina/pen/XoYjWJ" target="_blank"> <img src="./assets/img/creature.jpg" class="img" /> </a>
+                                <div  class="twentyfive" > 
+                                    <!-- <a href="https://codepen.io/efrenmedina/pen/XoYjWJ" target="_blank">  -->
+                                        <img  src="./assets/img/creature.jpg" class="img" onclick="go('https://codepen.io/efrenmedina/pen/XoYjWJ')"   /> 
+                                    <!-- </a> -->
                                 </div>
                                 <div class="seventyfive">
                                   <b>Kangaroo</b>
@@ -123,7 +135,10 @@
                       </div>
                       
         </div>
-  
+
+        <div class="iframe-container" id="iframe" > 
+            <iframe class="iframe" src="https://dogbreedproject.herokuapp.com/" ></iframe>
+        </div>
 
         <div id="title" >
             About
@@ -143,7 +158,8 @@
                        <p id="aboutText">When I am not coding I like to travel. One of my personal goals is to travel to all seven continents. Trying new foods and restaurants exploring new sites helps keep me inspired.  </p>
                          </div>
                      </div>
-                     
+
+                   
                      
                      <div class="aboutDiv">
                          <h3 class="inputHeader" >Contact Me</h3>
@@ -205,12 +221,12 @@
                        </div>
          
          </section>
+         
 
 
 
 
-         <! ----- Javascript Tags------->
-     <script src="js/main.js"></script>
+     
 
 </body>
 </html>
