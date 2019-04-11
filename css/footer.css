@@ -10,7 +10,7 @@
 .iframe-container {
     position: relative;
     overflow: hidden;
-    padding-top: 42rem;
+    padding-top: 40rem;
     border: solid black 5px;
     width: 95%;
     left: 50%;
@@ -19,4 +19,10 @@
     transform: translate(-50%, 0%);
     margin-bottom: 10rem;
     box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.497), 0 2vw 4vw 0 rgba(0, 0, 0, 0.585);
+}
+
+@media only screen and (max-width: 450px) {
+    .iframe-container {
+    padding-top: 35rem;
+    }
 }
