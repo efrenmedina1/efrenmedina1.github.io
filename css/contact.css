@@ -11,7 +11,7 @@
 
 .input{
         width: 100%;
-        background-image: linear-gradient(-90deg,  #014421, #026431);
+        background-image: linear-gradient(-90deg,  #413d56, #6ca6ba);
         color: white;
         padding-left: 15px;
         padding-right: 15px;
@@ -22,7 +22,7 @@
     }
     .inputHeader{
         width: 100%;
-        background-image: linear-gradient(-90deg,  #014421, #026431);
+        background-image: linear-gradient(-90deg,  #413d56, #6ca6ba);
         color: white;
         padding-left: 15px;
         padding-right: 15px;
@@ -40,7 +40,7 @@
       }
 
 #contactBG{
-    background-image: url("../assets/img/contant.jpg");
+    background-image: url("../assets/img/contact.jpg");
   
     /* Set a specific height */
     height: 500px; 
@@ -57,7 +57,7 @@
 }
 
 .contactButton{
-    background-color: #014421;
+    background-image: linear-gradient(-90deg,  #413d56, #6ca6ba);
     border-radius: 20px;
     color: white;
     padding-left: 15px;
@@ -71,8 +71,9 @@
   }
 
   .contactButton:hover{
-    background-color: #014421a3;
+    background-image: linear-gradient(-90deg,  #413d56, #6ca6ba);
     cursor: pointer;
+    font-size: 1.3rem;
   }
 
   .aboutme{
