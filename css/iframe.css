@@ -44,7 +44,7 @@ iframeNone{
 .iframe-container {
     position: relative;
     overflow: hidden;
-    padding-top: 80vh;
+    padding-top: 60vh;
     width: 100%;
     left: 50%;
     top: 11%;
@@ -57,6 +57,6 @@ iframeNone{
 
 @media only screen and (max-width: 450px) {
     .iframe-container {
-    padding-top: 35rem;
+    padding-top: 60vh;
     }
 }
