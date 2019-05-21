@@ -1,16 +1,21 @@
 
 
 function goIframe(loc) {
-    
-    document.getElementsByClassName('iframe')[0].scrollIntoView({
-        behavior: 'smooth'
-      })
+  document.getElementById("modals").style.display = "inline";
     document.getElementsByClassName('iframe')[0].src = loc;
     document.getElementsByClassName('iframe')[0].contentWindow.location.reload();
+    
     console.log('go')
     console.log(document.getElementsByClassName('iframe')[0].src)
 
+
   }
+
+  function leaveIframe(loc) {
+    document.getElementById("modals").style.display = "none";
+  
+  
+    }
 
   function goHome() {
     
@@ -34,3 +39,5 @@ function goIframe(loc) {
           behavior: 'smooth'
         })
       }
+
+     

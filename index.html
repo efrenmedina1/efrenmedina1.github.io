@@ -19,11 +19,11 @@
         <div class="nav2" >
     
 
-            <a  href="#home">   
-                <div class="link" href="#home" >
-                    <h2>Home</h2>
-                </div>
-              </a>
+                <!-- <a  href="#home">   
+                    <div class="link" href="#home" >
+                        <h2>Home</h2>
+                    </div>
+                </a> -->
 
             
                 <div class="link"  onclick="goProjects()" >
@@ -67,7 +67,7 @@
                   
                       <div class="projectSection" >
                   
-                       
+                       <center>  <h2>Click on icon to preview project.</h2></center>
                   
                         <section  > 
                                 <div class="projects"> 
@@ -145,8 +145,13 @@
                       
         </div>
 
-        <div class="iframe-container" id="iframe" > 
-            <iframe class="iframe" src="https://dogpaws.herokuapp.com/" ></iframe>
+        <div class="modals" id="modals" > 
+            <div class="modalHeader" onclick="leaveIframe()" >
+                <h2 onclick="leaveIframe()" >Click here to leave preview</h2>
+            </div>
+            <div class="iframe-container" id="iframe" > 
+                <iframe class="iframe" src="https://dogpaws.herokuapp.com/" ></iframe>
+            </div>
         </div>
 
         <div id="title" >
@@ -163,9 +168,11 @@
                          <div class="aboutme" > 
                          <h2 class="text-center text-uppercase" id="aboutText"><b>About Me</b></h2> 
                          
-                       <p id="aboutText">I am a JavaScript Developer recently graduating from Eleven Fifty Academy. Having experience in full stack development in both React.js and Angular.js. I enjoy coding and looking for solutions. The search to crack a problem is addictive and pushes me to succeed.  </p>
-                       <p id="aboutText">When I am not coding I like to travel. One of my personal goals is to travel to all seven continents. Trying new foods and restaurants exploring new sites helps keep me inspired.  </p>
-                         </div>
+                       <p id="aboutText">I am a JavaScript Developer recently graduating from Eleven Fifty Academy. Having experience in full stack development in both React.js and Angular.js. Having worked on exceled in both solo projects and group projects. </p>
+                       <p id="aboutText">When I first started the academy I did not know it then but, I had been dabbling in coding most of my life. I used it in almost all aspects from my life. From creating excel spreadsheets to track and plan my fitness and nutrition goals to making macros in video games to be more efficient. Now I am honing and refining, always pushing to be better.   </p>
+                         
+                         <p id="aboutText">When not coding I like to travel and try new foods. Seeing landmarks, new cultures, and meeting new people give you wisdom in a way no other way can and I am always trying to expand my horizons. </p>
+                        </div>
                      </div>
 
                    
@@ -232,7 +239,7 @@
          </section>
          
          
-         <div class="container" id="navbarContainer" > 
+         <div class="container" id="footerContainer" > 
                 <div class="nav" >
                     &nbsp;
                 </div>

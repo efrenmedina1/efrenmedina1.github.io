@@ -63,6 +63,7 @@
     height: 12vw;
     width: 12vw;
     box-shadow: 0 3vw 6vw 0 rgba(0, 0, 0, 0.497), 0 3vw 6vw 0 rgba(0, 0, 0, 0.585);
+    cursor: pointer;
 }
 
 #poke{
@@ -146,6 +147,8 @@ a { color: inherit; }
 
   }
 
+ 
+
 @media only screen and (max-width: 600px) {
     
     
@@ -187,7 +190,7 @@ a { color: inherit; }
     display: table-cell;
     border-radius: 2vw;
     border: solid 5px black;
-    height: 12rem;
+    height: 14rem;
     padding: 1rem;
     text-align: center;
     margin-left: 2vw;

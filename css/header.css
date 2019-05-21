@@ -12,7 +12,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-    height: 55vh;
+    height: 90vh;
     text-align: center;
     padding: 15vw 30vw 0vw 30vw;
     
@@ -24,6 +24,12 @@
     font-size: 5vw;
     margin-bottom: 1rem;
     font-weight: bold;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
 }
 
 .welcome2{
@@ -33,6 +39,12 @@
     margin-top: 0;
     padding-top: 0;
     font-weight: bold;
+
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+     -ms-animation: fadein 4s; /* Internet Explorer */
+      -o-animation: fadein 4s; /* Opera < 12.1 */
+         animation: fadein 4s;
 }
 
 @media only screen and (max-width: 1000px) {
