@@ -37,6 +37,10 @@
     
 }
 
+iframeNone{
+    display: none;
+}
+
 .iframe-container {
     position: relative;
     overflow: hidden;
