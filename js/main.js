@@ -13,7 +13,6 @@ function goIframe(loc) {
 
   function leaveIframe(loc) {
     document.getElementById("modals").style.display = "none";
-    document.getElementsByClassName('iframe')[0].src = 'https://efrenmedina1.github.io/assets/img/loading.gif';
   
   
     }
