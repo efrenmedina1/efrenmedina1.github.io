@@ -19,19 +19,19 @@
         <div class="nav2" >
     
 
-                <!-- <a  href="#home">   
-                    <div class="link" href="#home" >
-                        <h2>Home</h2>
+                <a  href="#home">   
+                    <div class="link" onclick="routeHome()" >
+                        <h2 onclick="routeHome()" >Home</h2>
                     </div>
-                </a> -->
+                </a>
 
             
-                <div class="link"  onclick="goProjects()" >
+                <div class="link"  onclick="routeProjects()" >
                     <h2  onclick="goProjects()">Projects</h2>
                 </div>
             
             
-                <div class="link" onclick="goContact()" >
+                <div class="link" onclick="routeContact()" >
                     <h2 onclick="goContact()">About</h2>
                 </div>
 
@@ -67,7 +67,7 @@
                   
                       <div class="projectSection" >
                   
-                       <center>  <h2>Click on icon to preview project</h2></center>
+                       <center>  <div class="projectHeader" >Click on icon to preview project</div></center>
                   
                         <section  > 
                                 <div class="projects"> 
@@ -137,6 +137,8 @@
                                   <p>First project at Eleven Fifty Academy. Used CSS and HTML to manipulate divs to create a character.</p>
                                 </div>
                             </div>
+
+                            
                             
                      
                         </section>
@@ -158,10 +160,11 @@
         <iframe class="iframeNone" src="https://efrens-pokemon-client.herokuapp.com/" ></iframe>
         <iframe class="iframeNone" src="https://marcusverdeflorhaynes.herokuapp.com/calendar" ></iframe>
 
-        <div id="title" >
-            About
-          </div>
+       
         <section id="contact">
+                <div id="title" >
+                        About
+                      </div>
             <div class="container" id="contactBG" > 
                    
                    <div class="row">              

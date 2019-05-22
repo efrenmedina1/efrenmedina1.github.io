@@ -1,8 +1,7 @@
 
 
 function goIframe(loc) {
-  let element = document.getElementById("parallax");
-    element.classList.add("bodyOpen");
+
 
   document.getElementById("modals").style.display = "inline";
     document.getElementsByClassName('iframe')[0].src = loc;
@@ -15,10 +14,9 @@ function goIframe(loc) {
   }
 
   function leaveIframe(loc) {
-    let element = document.getElementById("parallax");
-    element.classList.add("bodyClosed");
+
     document.getElementById("modals").style.display = "none";
-    location.reload();
+    
  
   
   
@@ -47,4 +45,25 @@ function goIframe(loc) {
         })
       }
 
-     
+
+
+      ///////routing
+
+
+     function routeHome(){
+      document.getElementById("home").style.display = "inline";
+      document.getElementById("projects").style.display = "none";
+      document.getElementById("contact").style.display = "none";
+     }
+
+     function routeContact(){
+      document.getElementById("home").style.display = "none";
+      document.getElementById("projects").style.display = "none";
+      document.getElementById("contact").style.display = "inline";
+     }
+
+     function routeProjects(){
+      document.getElementById("home").style.display = "none";
+      document.getElementById("projects").style.display = "inline";
+      document.getElementById("contact").style.display = "none";
+     }
