@@ -2,8 +2,15 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(../assets/img/bodyBG.jpg);
+    overflow: scroll;
 }
 
+.bodyOpen {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../assets/img/bodyBG.jpg);
+    overflow: hidden;
+}
 
 
 .container{
@@ -60,3 +67,4 @@
     float: left;
     display: table-cell;
 }
+

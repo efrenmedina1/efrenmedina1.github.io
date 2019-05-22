@@ -1,18 +1,25 @@
 
 
 function goIframe(loc) {
+  let element = document.getElementById("parallax");
+    element.classList.add("bodyOpen");
+
   document.getElementById("modals").style.display = "inline";
     document.getElementsByClassName('iframe')[0].src = loc;
     document.getElementsByClassName('iframe')[0].contentWindow.location.reload();
     
     console.log('go')
     console.log(document.getElementsByClassName('iframe')[0].src)
-
-
+    
+    
   }
 
   function leaveIframe(loc) {
+    let element = document.getElementById("parallax");
+    element.classList.add("bodyClosed");
     document.getElementById("modals").style.display = "none";
+    location.reload();
+ 
   
   
     }
