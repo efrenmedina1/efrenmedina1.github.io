@@ -11,9 +11,19 @@ function goIframe(loc) {
     
   }
 
+  function goIframe2(loc) {
+
+
+    document.getElementById("modals2").style.display = "inline";
+      
+      
+      
+    }
+
   function leaveIframe(loc) {
 
     document.getElementById("modals").style.display = "none";
+    document.getElementById("modals2").style.display = "none";
     
  
   

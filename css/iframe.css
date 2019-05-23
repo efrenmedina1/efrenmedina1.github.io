@@ -13,6 +13,9 @@
 #modals{
     display: none;
 }
+#modals2{
+    display: none;
+}
 
 .modalHeader{
     width: 100%;
