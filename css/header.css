@@ -290,6 +290,7 @@
     .headerBack{
         width: 450px;
         height: 410px;
+        z-index: 1;
       }
 
     .onecircle{
@@ -297,6 +298,7 @@
         top: 25%;
         width: 225px;
         height: 225px;
+        z-index: -1;
       }
       
       
@@ -305,6 +307,7 @@
         top: 80%;
         width: 225px;
         height: 225px;
+        z-index: -1;
       }
 
     .welcome{
