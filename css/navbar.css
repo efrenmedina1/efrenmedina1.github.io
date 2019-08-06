@@ -11,18 +11,10 @@
 
 #navbarContainer{
     /* background-color: #014421; */
-    background-image: linear-gradient(-90deg,  #413d56, #6ca6ba);
     padding: 0rem;
     position: fixed;
     height: 7.5vh;
     z-index: 1;
-    
-    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 5s; /* Firefox < 16 */
-        -ms-animation: fadein 5s; /* Internet Explorer */
-         -o-animation: fadein 5s; /* Opera < 12.1 */
-            animation: fadein 5s;
-            
   
 }
 
@@ -61,18 +53,53 @@
     display: table-cell;
 }
 
-.link{
-    width: 25%;
+.linkOne{
+    width: 33.33%;
     float: left;
     display: table-cell;
     text-align: center;
     color: white;
     cursor: pointer;
+    background-color: #ab987a
+    
 }
 
-.link:hover{
-    background-color: #6ca6ba;
+.linkOne:hover{
+    box-shadow: 0 0 8px -1px rgba(0,0,0,0.6);
+    color: black;
 }
+
+.linkTwo{
+    width: 33.33%;
+    float: left;
+    display: table-cell;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background-color: #0f1626; 
+}
+
+.linkTwo:hover{
+    box-shadow: 0 0 8px -1px rgba(0,0,0,0.6);
+    color: rgb(105, 101, 101);
+}
+
+.linkThree{
+    width: 33.33%;
+    float: left;
+    display: table-cell;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background-color: #ff533d
+}
+
+.linkThree:hover{
+    box-shadow: 0 0 8px -1px rgba(0,0,0,0.6);
+    color: black;
+}
+
+
 
 .link2{
     width: 33%;

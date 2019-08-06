@@ -30,6 +30,11 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-weight: bold;
+    background-color: #0f1626;
+    color: white;
+    width: 50rem;
+    border: solid 5px black;
+    
 }
 
 
@@ -51,21 +56,22 @@
     width: 50%;
     float: left;
     display: table-cell;
-    border-radius: 2vw;
-    border: solid 5px black;
-    height: 12rem;
+    height: 15rem;
     padding: 1rem;
     background-color: white;
-    box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.497), 0 2vw 4vw 0 rgba(0, 0, 0, 0.585);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.993);
 
+}
+
+.seventyfive:hover{
+    box-shadow: 5px 5px 5px 5px #ff543d63;
+    cursor: pointer;
 }
 
 .img{
     height: 12vw;
     width: 12vw;
     box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.497), 0 2vw 4vw 0 rgba(0, 0, 0, 0.585);
-    border-radius: 2vw;
-    border: solid 5px black
 }
 
 
@@ -95,7 +101,10 @@ a { color: inherit; }
     
     } */
     
-    
+    .projectHeader{
+        font-size: 2.5rem;
+        width: 40rem;
+    }
     
     .projectSection{
         margin-left: 3vw;
@@ -124,7 +133,7 @@ a { color: inherit; }
         display: table-cell;
         border-radius: 2vw;
         border: solid 5px black;
-        height: 12rem;
+        height: 15rem;
         padding: 1rem;
     
     }
@@ -157,6 +166,13 @@ a { color: inherit; }
 
   }
 
+@media only screen and (max-width: 800px) {
+    .projectHeader{
+        font-size: 2rem;
+        width: 32rem;
+    }
+}
+
  
 
 @media only screen and (max-width: 600px) {
@@ -172,6 +188,10 @@ a { color: inherit; }
 
 } */
 
+.projectHeader{
+    font-size: 2rem;
+    width: 20rem;
+}
 
 
 .projectSection{
@@ -200,7 +220,7 @@ a { color: inherit; }
     display: table-cell;
     border-radius: 2vw;
     border: solid 5px black;
-    height: 14rem;
+    height: 15rem;
     padding: 1rem;
     text-align: center;
     margin-left: 2vw;
@@ -211,7 +231,6 @@ a { color: inherit; }
     height: 30vw;
     width: 30vw;
     box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.497), 0 2vw 4vw 0 rgba(0, 0, 0, 0.585);
-    border-radius: 2vw;
     border: solid 5px black
 }
 

@@ -20,26 +20,26 @@
     
 
                 <a  href="#home">   
-                    <div class="link" onclick="routeHome()" >
+                    <div class="linkOne" onclick="routeHome()" >
                         <h2 onclick="routeHome()" >Home</h2>
                     </div>
                 </a>
 
             
-                <div class="link"  onclick="routeProjects()" >
+                <div class="linkTwo"  onclick="routeProjects()" >
                     <h2  onclick="goProjects()">Projects</h2>
                 </div>
             
             
-                <div class="link" onclick="routeContact()" >
+                <div class="linkThree" onclick="routeContact()" >
                     <h2 onclick="goContact()">About</h2>
                 </div>
 
-            <a  href="./assets/img/Resume.pdf" target="_blank">   
+            <!-- <a  href="./assets/img/Resume.pdf" target="_blank">   
                 <div class="link" href="#resume" >
                     <h2>Resume</h2>
                 </div>
-            </a>
+            </a> -->
     
     
             
@@ -49,15 +49,31 @@
       </div>
 
          <div id="home"  class="container" >
-
-                <div id="header" >
-                  
-                  <p class= "welcome" >Efren Medina</p>
-                  <p class= "welcome2" >Javascript Developer</p>
-              
+            <p class= "welcome" >Efren Medina</p>
+            <p class= "welcome2" >Javascript Developer</p>
+        
+            <div class="back" > 
+                <div class="headerBack">
+                    <div class="oneback">
+                        &nbsp;
+                    </div>
+                    <div class="twoback">
+                        &nbsp;
+                    </div>
+                    <div class="threeback">
+                        &nbsp;
+                    </div>
                 </div>
-                
-              </div>    
+            </div>
+
+                <div class="onecircle" >
+                    &nbsp;
+                </div>
+        
+                <div class="twocircle" >
+                    &nbsp;
+                </div>
+        </div>    
               
         <div  class="container" id="projects" >
 
@@ -72,71 +88,91 @@
                         <section  > 
                                 <div class="projects"> 
                                         <div  class="twentyfive"> 
-                                            <!-- <a href="https://dogbreedproject.herokuapp.com/" target="_blank">  -->
-                                                <img src="assets/img/Kickboxing.jpg" id="dog" class="img" onclick="goIframe('https://marcusverdeflorhaynes.herokuapp.com/')"  /> 
-                                            <!-- </a> -->
+                                            <img src="assets/img/Kickboxing.jpg" id="dog" class="img" onclick="goIframe('https://marcusverdeflorhaynes.herokuapp.com/')"  /> 
                                         </div>
-                                        <div class="seventyfive">
-                                          <b>Kickboxing Instructor's Website</b>
-                                          <p>Current work in progress. Full stack website using Angular and Node.js. It is the Kickboxing Instructors Personal website where he will advertise himself and interact with his clients. Clients are able to discuss one site and view the instructors schedule. The instructor is able to personal make updates to the calendar through an admin portal.</p>
-                                        </div>
+                                        <a href="https://marcusverdeflorhaynes.herokuapp.com/" target="_blank"> 
+                                            <div class="seventyfive">
+                                                <b>Kickboxing Instructor's Website</b>
+                                                
+                                                <p>Current work in progress. Full stack website using Angular and Node.js. It is the Kickboxing Instructors Personal website where he will advertise himself and interact with his clients. Clients are able to discuss one site and view the instructors schedule. The instructor is able to personal make updates to the calendar through an admin portal.</p>
+                                                <br>
+                                                <br>
+                                                <center><b style="color: #ff533d">Direct Link</b></center>
+                                            </div>
+                                            </a>
                                     </div>
                             <div class="projects"> 
                                 <div  class="twentyfive"> 
-                                    <!-- <a href="https://dogbreedproject.herokuapp.com/" target="_blank">  -->
-                                        <img src="assets/img/dl.png" id="dog" class="img" onclick="goIframe('https://dogpaws.herokuapp.com/')"  /> 
-                                    <!-- </a> -->
+                                    <img src="assets/img/dl.png" id="dog" class="img" onclick="goIframe('https://dogpaws.herokuapp.com/')"  /> 
                                 </div>
-                                <div class="seventyfive">
-                                  <b>Dog Selling/Breeding Full Stack Website</b>
-                                  <p>A website using Angular to design a website where people can post their dogs for sell or breeding purposes. Users can make a profile and chat in a fourm. It is a team project where task delegation and teamwork skills are being employed. A Node.js server is being utilized for the backend. </p>
-                                </div>
+                                <a href="https://dogpaws.herokuapp.com/" target="_blank"> 
+                                    <div class="seventyfive">
+                                        <b>Dog Selling/Breeding Full Stack Website</b>
+                                        <p>A website using Angular to design a website where people can post their dogs for sell or breeding purposes. Users can make a profile and chat in a fourm. It is a team project where task delegation and teamwork skills are being employed. A Node.js server is being utilized for the backend. </p>
+                                        <br>
+                                        <br>
+                                        <center><b style="color: #ff533d">Direct Link</b></center>
+                                    </div>
+                                    </a>
                             </div>
                             <div class="projects"> 
                                 <div  class="twentyfive"> 
-                                    <!-- <a href="https://efrens-pokemon-client.herokuapp.com/" target="_blank"> -->
-                                         <img src="assets/img/redteam.gif" id="poke" class="img" onclick="goIframe('https://efrens-pokemon-client.herokuapp.com/')"  /> 
-                                        <!-- </a> -->
+                                    <img src="assets/img/redteam.gif" id="poke" class="img" onclick="goIframe('https://efrens-pokemon-client.herokuapp.com/')"  /> 
                                 </div>
-                                <div class="seventyfive">
-                                  <b>Pokemon Team Full Stack App</b>
-                                  <p>Full stack PERN App utilizing a free Pokemon API. Learned to use React.js components. Learn to properly pass Props and handle State to have components manipulate each other.   </p>
-                                </div>
+                                <a href="https://efrens-pokemon-client.herokuapp.com/" target="_blank">
+                                    <div class="seventyfive">
+                                        <b>Pokemon Team Full Stack App</b>
+                                        <p>Full stack PERN App utilizing a free Pokemon API. Learned to use React.js components. Learn to properly pass Props and handle State to have components manipulate each other.   </p>
+                                        <br>
+                                        <br>
+                                        <center><b style="color: #ff533d">Direct Link</b></center>
+                                    </div>
+                                    </a>
+                                
                             </div>
                             <div class="projects"> 
                                 <div class="twentyfive"> 
-                                    <!-- <a href="https://efren-studio-ghibli-api.firebaseapp.com/" target="_blank">  -->
-                                        <img src="assets/img/API.jpg" class="img" onclick="goIframe('https://efren-studio-ghibli-api.firebaseapp.com/')"  /> 
-                                    <!-- </a> -->
+                                    <img src="assets/img/API.jpg" class="img" onclick="goIframe('https://efren-studio-ghibli-api.firebaseapp.com/')"  /> 
                                 </div>
-                                <div class="seventyfive">
-                                  <b>Studio Ghibli API Website </b>
-                                  <p>First attempt at using a API to display information on a client. Learn how to use JavaScript to render the DOM. </p>
-                                </div>
+                                <a href="https://efren-studio-ghibli-api.firebaseapp.com/" target="_blank"> 
+                                    <div class="seventyfive">
+                                        <b>Studio Ghibli API Website </b>
+                                        <p>First attempt at using a API to display information on a client. Learn how to use JavaScript to render the DOM. </p>
+                                        <br>
+                                        <br>
+                                        <center><b style="color: #ff533d">Direct Link</b></center>
+                                    </div>
+                                    </a>
                             </div>
                             <div class="projects"> 
                                 <div class="twentyfive"> 
-                                    <!-- <a href="https://efrenmedina1.github.io/Tutorial-Webpage/" target="_blank"> -->
-                                        <img src="assets\img\tutorial.jpg" class="img" 
-                                        onclick="goIframe2('https://efrenmedina1.github.io/Tutorial-Webpage/')"  /> 
-                                    <!-- </a> -->
+                                    <img src="assets\img\tutorial.jpg" class="img" 
+                                    onclick="goIframe2('https://efrenmedina1.github.io/Tutorial-Webpage/')"  /> 
                                 </div>
-                                <div class="seventyfive">
-                                  <b>Tutorial Website</b>
-                                  <p>School project to create a website with information on how to learn JavaScript. Learned to deploy websites and design.</p>
-                                </div>
+                                <a href="https://efrenmedina1.github.io/Tutorial-Webpage/" target="_blank">
+                                    <div class="seventyfive">
+                                        <b>Tutorial Website</b>
+                                        <p>School project to create a website with information on how to learn JavaScript. Learned to deploy websites and design.</p>
+                                        <br>
+                                        <br>
+                                        <center><b style="color: #ff533d">Direct Link</b></center>
+                                    </div>
+                                    </a>
                             </div>
 
                             <div class="projects"> 
                                 <div  class="twentyfive" > 
-                                    <!-- <a href="https://codepen.io/efrenmedina/pen/XoYjWJ" target="_blank">  -->
-                                        <img  src="./assets/img/creature.jpg" class="img" onclick="goIframe('https://codepen.io/efrenmedina/pen/XoYjWJ')"   /> 
-                                    <!-- </a> -->
+                                    <img  src="./assets/img/creature.jpg" class="img" onclick="goIframe('https://codepen.io/efrenmedina/pen/XoYjWJ')"   /> 
                                 </div>
-                                <div class="seventyfive">
-                                  <b>Kangaroo</b>
-                                  <p>First project at Eleven Fifty Academy. Used CSS and HTML to manipulate divs to create a character.</p>
-                                </div>
+                                <a href="https://codepen.io/efrenmedina/pen/XoYjWJ" target="_blank"> 
+                                    <div class="seventyfive">
+                                        <b>Kangaroo</b>
+                                        <p>First project at Eleven Fifty Academy. Used CSS and HTML to manipulate divs to create a character.</p>
+                                        <br>
+                                        <br>
+                                        <center><b style="color: #ff533d">Direct Link</b></center>
+                                    </div>
+                                    </a>
                             </div>
 
                             
@@ -182,16 +218,16 @@
                    
                    <div class="row">              
                      
-                     <div class="aboutDiv"><img src="assets/img/profile.jpg" style="width:80%;height:60%; border-radius: 1vw; box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.497), 0 2vw 4vw 0 rgba(0, 0, 0, 0.585);""></div>
+                     <div class="aboutDiv"><img src="assets/img/hi.png" style="width:100%;height:100%; ""></div>
                      
                      <div class="aboutDiv">
                          <div class="aboutme" > 
-                         <h2 class="text-center text-uppercase" id="aboutText"><b>About Me</b></h2> 
+                         <h2 class="text-center text-uppercase" id="aboutText"><b>About Efren</b></h2> 
                          
-                       <p id="aboutText">I am a JavaScript Developer recently graduating from Eleven Fifty Academy. Having experience in full stack development in both React.js and Angular.js. Having worked on exceled in both solo projects and group projects. </p>
-                       <p id="aboutText">When I first started the academy I did not know it then but, I had been dabbling in coding most of my life. I used it in almost all aspects from my life. From creating excel spreadsheets to track and plan my fitness and nutrition goals to making macros in video games to be more efficient. Now I am honing and refining, always pushing to be better.   </p>
+                       <p id="aboutText">I am a Junior JavaScript Developer/Salesforce Pathfinder on the Administrator Path. During my time at Eleven Fifty I worked on multiple projects using both my own utilizing Web APIs, backend databases that allow full CRUD. </p>
+                       <p id="aboutText">Along with my developement skills I also bring both Human Resource and Real Estate Management skills. Having my own business of remodeling and leasing homes, Six years of extensive HR experience, there is plenty I can bring to the table.    </p>
                          
-                         <p id="aboutText">When not coding I like to travel and try new foods. Seeing landmarks, new cultures, and meeting new people give you wisdom in a way no other way can and I am always trying to expand my horizons. </p>
+                         <p id="aboutText">When not coding I like to travel and try new foods. Seeing landmarks, new cultures, and meeting new people are experiences that helps one grow.  </p>
                         </div>
                      </div>
 
@@ -255,35 +291,70 @@
                          </div>
          
                        </div>
+
+                       <div  class="footerContainer" > 
+                       
+                            <a  href="https://github.com/efrenmedina1" target="_blank"> 
+                            <img src="assets/img/icons/GitHub.png" style="height:50px; " href="https://github.com/efrenmedina1" target="_blank"">
+                            </a>
+                            <a  href="https://www.linkedin.com/in/efren-medina-9279b6aa/" target="_blank"> 
+                                <img src="assets/img/icons/linkedin.png" style="height:50px; " href="https://www.linkedin.com/in/efren-medina-9279b6aa/" target="_blank"">
+                            </a>
+                            <a  href="./assets/img/Resume.pdf" target="_blank"> 
+                                <img src="assets/img/icons/resume.png" style="height:50px; " href="./assets/img/Resume.pdf" target="_blank"">
+                            </a>
+            
+                        </div>
+
+                        <div  class="footerContainerMoblie" > 
+                       
+                            <a  href="https://github.com/efrenmedina1" target="_blank"> 
+                            <img src="assets/img/icons/GitHub.png" style="height:50px; " href="https://github.com/efrenmedina1" target="_blank"">
+                            </a>
+                            <a  href="https://www.linkedin.com/in/efren-medina-9279b6aa/" target="_blank"> 
+                                <img src="assets/img/icons/linkedin.png" style="height:50px; " href="https://www.linkedin.com/in/efren-medina-9279b6aa/" target="_blank"">
+                            </a>
+                            <a  href="./assets/img/Resume.pdf" target="_blank"> 
+                                <img src="assets/img/icons/resume.png" style="height:50px; " href="./assets/img/Resume.pdf" target="_blank"">
+                            </a>
+            
+                        </div>
          
          </section>
          
          
-         <div class="container" id="footerContainer" > 
-                <div class="nav" >
-                    &nbsp;
-                </div>
-              
-                <div class="nav2" >
-
-                                <div class="link2" href="#home" target="_blank" >
-                                    <h2>&nbsp;</h2>
-                                </div>
 
 
-                        <a  href="https://github.com/efrenmedina1" target="_blank">   
-                                <div class="link" href="https://github.com/efrenmedina1" target="_blank" >
-                                    <h2>Github</h2>
-                                </div>
-                        </a>
-                        <a  href="https://www.linkedin.com/in/efren-medina-9279b6aa/" target="_blank">   
-                                <div class="link" href="https://www.linkedin.com/in/efren-medina-9279b6aa/" target="_blank" >
-                                    <h2>Linkedin</h2>
-                                </div>
-                        </a>
-                        
-                </div>
+        <div class="streakOne" >
+            &nbsp;
+        </div>  
+
+        <div class="streakTwo" >
+            &nbsp;
+        </div>  
+
+        <div class="streakThree" >
+            &nbsp;
+        </div>  
+
+        <div class="streakFour" >
+            &nbsp;
+        </div>  
+
+        <div class="streakFive" >
+            &nbsp;
+        </div> 
+        
+        <div class="streakSix" >
+            &nbsp;
         </div>
+        
+        <div class="streakSeven" >
+            &nbsp;
+        </div>    
+
+
+       
         
 
 

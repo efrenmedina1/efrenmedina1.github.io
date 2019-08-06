@@ -75,3 +75,11 @@ function goIframe(loc) {
       document.getElementById("projects").style.display = "inline";
       document.getElementById("contact").style.display = "none";
      }
+
+     ///////background fadeing
+
+     $(document).ready(function(){
+      setInterval(function() {
+          $(".streakFour").show().delay(1000).fadeOut();
+      }, 2000 );
+   });

@@ -1,9 +1,36 @@
 
 
-#footerContainer{
+.footerContainer{
     /* background-color: #014421; */
-    background-image: linear-gradient(-90deg,  #413d56, #6ca6ba);
     padding: 0rem;
     height: 7.5;
-  
+    position: fixed;
+    top: 94%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+
+}
+
+.footerContainerMoblie{
+    display: none;
+
+}
+
+.footerLink{
+    cursor: pointer;
+    /* background-color: #ab987a   */
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .footerContainer{
+        display: none;
+    
+    }
+
+    .footerContainerMoblie{
+        display: inline;
+    
+    }
 }

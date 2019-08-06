@@ -1,4 +1,193 @@
 #parallax { 
     /* The image used */
-    background-image: url("../assets/img/bodyBG.jpg");
+    
+
   }
+
+  .body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: scroll;
+}
+
+.bodyOpen {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../assets/img/bodyBG.png);
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+@-webkit-keyframes oneAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+.streakOne{
+  background-image: linear-gradient(-135deg,  #ff533d, #ffffff);
+  position: fixed;
+  width: 15px;
+  height: 700px;
+  z-index: -2;
+  top: 0%;
+  left: 70%;
+  transform: rotate(20deg);
+
+  -webkit-animation: oneAnimation 2.5s infinite;
+  -moz-animation: oneAnimation 2.5s infinite;
+  -o-animation: oneAnimation 2.5s infinite;
+   animation: oneAnimation 2  .5s infinite;
+  
+}
+
+.streakOne:hover{
+  width: 13px;
+  left: 69%
+}
+
+
+
+.streakTwo{
+  background-image: linear-gradient(-135deg,  #ab987a, #ffffff);
+  position: fixed;
+  width: 17px;
+  height: 700px;
+  z-index: -2;
+  top: -10%;
+  left: 10%;
+  transform: rotate(20deg);
+
+  -webkit-animation: oneAnimation 2s infinite;
+  -moz-animation: oneAnimation 2s infinite;
+  -o-animation: oneAnimation 2s infinite;
+   animation: oneAnimation 2s infinite;
+  
+}
+
+.streakTwo:hover{
+  width: 13px;
+  left: 9%
+}
+
+@-webkit-keyframes threeAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+.streakThree{
+  background-image: linear-gradient(-135deg,  #0f1626, #ffffff);
+  position: fixed;
+  width: 10px;
+  height: 700px;
+  z-index: -2;
+  top: -15%;
+  left: 35%;
+  transform: rotate(20deg);
+
+  -webkit-animation: oneAnimation 1.8s infinite;
+  -moz-animation: oneAnimation 1.8s infinite;
+  -o-animation: oneAnimation 1.8s infinite;
+   animation: oneAnimation 1.8s infinite;
+  
+}
+
+.streakThree:hover{
+  width: 15px;
+  left: 36%
+}
+
+
+.streakFour{
+  background-image: linear-gradient(-135deg,  #0f1626, #ffffff);
+  position: fixed;
+  width: 16px;
+  height: 700px;
+  z-index: -2;
+  top: -5%;
+  left: 90%;
+  transform: rotate(20deg);
+
+  -webkit-animation: oneAnimation 2.2s infinite;
+  -moz-animation: oneAnimation 2.2s infinite;
+  -o-animation: oneAnimation 2.2s infinite;
+   animation: oneAnimation 2.2s infinite;
+  
+}
+
+.streakFour:hover{
+  width: 12px;
+  left: 89%
+}
+
+.streakFive{
+  background-image: linear-gradient(-135deg,  #ff533d, #ffffff);
+  position: fixed;
+  width: 10px;
+  height: 700px;
+  z-index: -2;
+  top: -20%;
+  left: 25%;
+  transform: rotate(20deg);
+
+  -webkit-animation: oneAnimation 2.4s infinite;
+  -moz-animation: oneAnimation 2.4s infinite;
+  -o-animation: oneAnimation 2.4s infinite;
+   animation: oneAnimation 2.4s infinite;
+  
+}
+
+.streakFive:hover{
+  width: 15px;
+  left: 24%
+}
+
+.streakSix{
+  background-image: linear-gradient(-135deg,  #ab987a, #ffffff);
+  position: fixed;
+  width: 15px;
+  height: 700px;
+  z-index: -2;
+  top: -0%;
+  left: 45%;
+  transform: rotate(20deg);
+
+  -webkit-animation: oneAnimation 2.3s infinite;
+  -moz-animation: oneAnimation 2.3s infinite;
+  -o-animation: oneAnimation 2.3s infinite;
+   animation: oneAnimation 2.3s infinite;
+  
+}
+
+.streakSix:hover{
+  width: 11px;
+  left: 43%
+}
+
+.streakSeven{
+  background-image: linear-gradient(-135deg,  #0f1626, #ffffff);
+  position: fixed;
+  width: 10px;
+  height: 700px;
+  z-index: -2;
+  top: -15%;
+  left: 60%;
+  transform: rotate(20deg);
+
+  -webkit-animation: oneAnimation 1.8s infinite;
+  -moz-animation: oneAnimation 1.8s infinite;
+  -o-animation: oneAnimation 1.8s infinite;
+   animation: oneAnimation 1.8s infinite;
+  
+}
+
+.streakSeven:hover{
+  width: 15px;
+  left: 62%
+}

@@ -1,25 +1,55 @@
 
 
 #header{
-        /* The image used */
-        background-image: url("../assets/img/homeBG.jpg");
-  
-        /* Set a specific height */
-        height: 500px; 
-      
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+
     height: 68vh;
-    text-align: center;
-    padding: 10rem 0rem 0rem 0rem;
+    z-index: -15;
     
 }
 
+.headerBack{
+    position: fixed;
+    width: 900px;
+    height: 300px;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0f1626;
+  }
+  
+  .oneback{
+    background-image: linear-gradient(-90deg,  #0f1626, #5f6269);
+    height: 100%;
+    width: 33.33%;
+    float: left;
+    display: table-cell;
+  }
+  
+  .twoback{
+    background-color: #0f1626;
+    height: 100%;
+    width: 33.33%;
+    float: left;
+    display: table-cell;
+  }
+  
+  .threeback{
+    background-image: linear-gradient(90deg,  #0f1626, #5f6269);
+    height: 100%;
+    width: 33.33%;
+    float: left;
+    display: table-cell;
+  }
+
 .welcome{
     /* background-color: rgba(0, 0, 0, 0.646); */
+
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
     color: white;
     font-size: 6.5rem;
     margin-bottom: 1rem;
@@ -41,6 +71,11 @@
 
 .welcome2{
     /* background-color: rgba(0, 0, 0, 0.646); */
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     color: white;
     font-size: 3.5rem;
     margin-top: 0;
@@ -59,7 +94,42 @@
       -o-animation: fadein 4s; /* Opera < 12.1 */
          animation: fadein 4s;
 }
-@media only screen and (max-width: 1250px) {
+
+.onecircle{
+    background-image: linear-gradient(135deg,  #ff533d, #ffffff);
+    height: 300px;
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    z-index: 2;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  .twocircle{
+    background-image: linear-gradient(-135deg,  #ab987a, #ffffff);
+    height: 300px;
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    z-index: 2;
+    top: 60%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+  @media only screen and (max-width: 1400px) {
+    .onecircle{
+        left: 10%;
+      }
+      
+      
+      .twocircle{
+        left: 90%;
+      }
+  }
+@media only screen and (max-width: 1350px) {
     #header{
     
 
@@ -69,10 +139,12 @@
 
     .welcome{
         font-size: 5rem;
+        top: 35%;
     }
     
     .welcome2{
         font-size: 3rem;
+        top: 60%;
 
     }
 
@@ -89,6 +161,20 @@
 
     }
 
+    .onecircle{
+        left: 10%;
+        width: 250px;
+        height: 250px;
+      }
+      
+      
+      .twocircle{
+        left: 90%;
+        width: 250px;
+        height: 250px;
+      }
+  
+
 }
 
 @media only screen and (max-width: 1000px) {
@@ -98,6 +184,26 @@
         padding: 13rem 0rem 0rem 0rem;
         
     }
+
+    .headerBack{
+        width: 500px;
+        height: 450px;
+      }
+
+      .onecircle{
+        left: 22%;
+        top: 18%;
+        width: 250px;
+        height: 250px;
+      }
+      
+      
+      .twocircle{
+        left: 80%;
+        top: 80%;
+        width: 250px;
+        height: 250px;
+      }
 
     .welcome{
         font-size: 4.5rem;
@@ -138,12 +244,31 @@
         
     }
 
+    .onecircle{
+        left: 22%;
+        top: 25%;
+        width: 250px;
+        height: 250px;
+      }
+      
+      
+      .twocircle{
+        left: 80%;
+        top: 80%;
+        width: 250px;
+        height: 250px;
+      }
+
     .welcome{
-        font-size: 3.5rem;
+        font-size: 4rem;
+        top: 30%;
+        left: 65%;
     }
     
     .welcome2{
         font-size: 2.2rem;
+        top: 55%;
+        left: 45%;
 
     }
 
@@ -162,27 +287,41 @@
         
     }
 
+    .headerBack{
+        width: 450px;
+        height: 410px;
+      }
+
+    .onecircle{
+        left: 22%;
+        top: 25%;
+        width: 225px;
+        height: 225px;
+      }
+      
+      
+      .twocircle{
+        left: 80%;
+        top: 80%;
+        width: 225px;
+        height: 225px;
+      }
+
     .welcome{
-        font-size: 3rem;
-        text-shadow:
-        3px 3px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
+        font-size: 3.5rem;
+        top: 30%;
+        left: 65%;
     }
     
     .welcome2{
-        font-size: 1.5rem;
-        text-shadow:
-        3px 3px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
+        font-size: 2.2rem;
+        top: 55%;
+        left: 45%;
 
     }
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 550px) {
     #header{
     
 
@@ -191,12 +330,129 @@
         
     }
 
+    .headerBack{
+        width: 400px;
+        height: 360px;
+      }
+
+    .onecircle{
+        left: 22%;
+        top: 25%;
+        width: 200px;
+        height: 200px;
+      }
+      
+      
+      .twocircle{
+        left: 80%;
+        top: 75%;
+        width: 200px;
+        height: 200px;
+      }
+
     .welcome{
-        font-size: 2.5rem;
+        font-size: 3.5rem;
+        top: 33%;
+        left: 65%;
+       
     }
     
     .welcome2{
-        font-size: 1.3rem;
+        font-size: 2.2rem;
+        top: 55%;
+        left: 45%;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    #header{
+    
+
+        padding: 14rem 0rem 0rem 0rem;
+        height: 65vh;
+        
+    }
+
+    .headerBack{
+        width: 350px;
+        height: 350px;
+      }
+
+    .onecircle{
+        left: 22%;
+        top: 22%;
+        width: 200px;
+        height: 200px;
+      }
+      
+      
+      .twocircle{
+        left: 75%;
+        top: 75%;
+        width: 200px;
+        height: 200px;
+      }
+
+    .welcome{
+        font-size: 2.8rem;
+        top: 36%;
+        left: 55%;
+        width: 20rem;
+    }
+    
+    .welcome2{
+        font-size: 2.2rem;
+        top: 55%;
+        left: 55%;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 400px) {
+    #header{
+    
+
+        padding: 14rem 0rem 0rem 0rem;
+        height: 65vh;
+        
+    }
+
+    .headerBack{
+        width: 300px;
+        height: 300px;
+      }
+
+    .onecircle{
+        left: 22%;
+        top: 22%;
+        width: 150px;
+        height: 150px;
+      }
+      
+      
+      .twocircle{
+        left: 75%;
+        top: 75%;
+        width: 150px;
+        height: 150px;
+      }
+
+    .welcome{
+        font-size: 2.8rem;
+        top: 36%;
+        left: 55%;
+        width: 20rem;
+    }
+    
+    .welcome2{
+        font-size: 2.2rem;
+        top: 55%;
+        left: 55%;
 
     }
 
