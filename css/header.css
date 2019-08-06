@@ -314,12 +314,14 @@
         font-size: 3.5rem;
         top: 30%;
         left: 65%;
+        z-index: 2;
     }
     
     .welcome2{
         font-size: 2.2rem;
         top: 55%;
         left: 45%;
+        z-index: 2;
 
     }
   }
